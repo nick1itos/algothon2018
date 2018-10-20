@@ -1,0 +1,6 @@
+import quandl
+import pandas as pd
+
+quandl.ApiConfig.api_key = "saTGBvzYNqURVrxrWro6"
+data = quandl.get("WIKI/AAPL", rows = 5)
+print(data)
